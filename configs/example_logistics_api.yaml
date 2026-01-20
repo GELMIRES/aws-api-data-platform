@@ -1,0 +1,13 @@
+source_name: example_logistics_api
+type: api
+
+api:
+  base_url: https://api.example.com
+  endpoint: /v1/shipments
+  method: GET
+
+load:
+  mode: full
+
+output:
+  raw_bucket: s3://my-data-lake/raw/example_logistics_api/
